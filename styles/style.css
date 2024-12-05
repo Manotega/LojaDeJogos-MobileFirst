@@ -134,13 +134,34 @@ body {
     background-position: 3%;
 }
 
-.lancamentos {
-    padding: 5%;
-}
-
 .lancamentos__titulo {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--cor-quartenaria);
+    padding: 5% 0 3%;
+}
+
+.lancamentos__conteudo {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrossel {
+    padding: 3%;
+}
+
+.lancamentos__conteudo__capas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lancamentos__imagens {
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px -1px;
 }
