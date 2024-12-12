@@ -1,6 +1,7 @@
 .populares {
     background-color: var(--cor-secundaria);
     padding-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .populares__titulo {

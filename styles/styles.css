@@ -3,6 +3,8 @@
 @import url(banner.css);
 @import url(lancamentos.css);
 @import url(populares.css);
+@import url(recentes.css);
+@import url(footer.css);
 
 :root {
     --cor-primaria: #ffffff;

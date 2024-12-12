@@ -1,0 +1,35 @@
+.recentes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}
+
+.recentes__titulo {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10% 5% 3% 5%;
+}
+
+.recentes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 5%;
+    justify-content: center;
+}
+
+.recentes__lista__item {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+.item__lista {
+    height: min-content;
+    padding: 5%;
+    margin: 2%;
+    background-color: var(--cor-quartenaria);
+}
