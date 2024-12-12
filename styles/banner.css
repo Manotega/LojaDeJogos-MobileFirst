@@ -1,5 +1,5 @@
 .banner {
-    background: var(--cor-terciaria);
+    background: var(--gradiente);
     color: var(--cor-primaria);
     text-align: center;
     display: flex;

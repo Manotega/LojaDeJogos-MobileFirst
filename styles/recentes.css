@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: var(--cor-terciaria);
+    background: var(--gradiente);
     color: var(--cor-primaria);
 }
 
@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 200px;
-    padding: 5%;
+    padding: 5% 5% 15% 5%;
     justify-content: center;
 }
 

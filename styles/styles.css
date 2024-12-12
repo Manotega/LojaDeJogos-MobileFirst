@@ -9,8 +9,9 @@
 :root {
     --cor-primaria: #ffffff;
     --cor-secundaria: #ebecee;
-    --cor-terciaria: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --cor-quartenaria: #ffa400;
+    --cor-terciaria: #002F52;
+    --cor-quartenaria: #FEB101;
+    --gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins", sans-serif;
 }
 

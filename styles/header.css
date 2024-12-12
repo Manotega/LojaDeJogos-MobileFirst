@@ -63,7 +63,7 @@
 .lista-menu__link {
     text-decoration: none;
     font-weight: 400;
-    background: var(--cor-terciaria);
+    background: var(--gradiente);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

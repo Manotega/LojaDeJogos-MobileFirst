@@ -33,8 +33,7 @@
     width: 180px;
     height: 250px;
     border-radius: 8px;
-    box-shadow: 2px 2px 12px -1px;
-    cursor: not-allowed;
+    box-shadow: 2px 2px 12px -1px black;
 }
 
 .lancamentos__bloco {

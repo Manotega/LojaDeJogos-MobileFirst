@@ -30,8 +30,7 @@
     width: 180px;
     height: 250px;
     border-radius: 8px;
-    box-shadow: 2px 2px 12px -1px;
-    cursor: not-allowed;
+    box-shadow: 2px 2px 12px -1px gray;
 }
 
 .populares__bloco {
@@ -64,7 +63,7 @@
 .populares__bloco__esq__subtitulo {
     font-size: 1.1rem;
     font-weight: bolder;
-    color: #EB9B00;
+    color: var(--cor-quartenaria);
     line-height: 140%;
 }
 
@@ -97,6 +96,7 @@
 .rockstar__imagem {
     width: 95%;
     border-radius: 16px;
+    padding-bottom: 5%;
 }
 
 .populares__bloco__dir__saibamais {
@@ -104,8 +104,8 @@
     color: var(--cor-primaria);
     font-weight: bolder;
     text-align: center;
-    width: 100%;
+    width: 95%;
     padding: 10% 0;
-    background-color: #EB9B00;
+    background-color: var(--cor-quartenaria);
     border-radius: 8px;
 }
