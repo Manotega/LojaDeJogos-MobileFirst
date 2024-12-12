@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;600&display=swap');
+@import url(header.css);
+@import url(banner.css);
+@import url(lancamentos.css);
+@import url(populares.css);
+
+:root {
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #ebecee;
+    --cor-terciaria: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-quartenaria: #EB9B00;
+    --fonte-principal: "Poppins", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-primaria);
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}

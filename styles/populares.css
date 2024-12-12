@@ -1,0 +1,109 @@
+.populares {
+    background-color: var(--cor-secundaria);
+    padding-bottom: 2%;
+}
+
+.populares__titulo {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--cor-quartenaria);
+    padding: 5% 0 3%;
+    background-color: var(--cor-primaria);
+}
+
+.populares__conteudo {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.populares__conteudo__capas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.populares__imagens {
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px -1px;
+    cursor: not-allowed;
+}
+
+.populares__bloco {
+    display: flex;
+    border: solid 0px;
+    width: 90%;
+    margin: 5%;
+    background-color: var(--cor-primaria);
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px gray;
+    justify-content: space-between;
+}
+
+.populares__bloco__esq {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5% 0 5% 5%;
+    width: 60%;
+    gap: 12px;
+}
+
+.populares__bloco__esq__titulo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-quartenaria);
+    line-height: 140%;
+}
+
+.populares__bloco__esq__subtitulo {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: var(--cor-terciaria);
+    line-height: 140%;
+}
+
+.populares__bloco__esq__texto {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    line-height: 140%;
+}
+
+.populares__bloco__esq__icones {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.populares__bloco__esq__icone {
+    width: 80%;
+}   
+
+.populares__bloco__dir {
+    padding: 5% 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rockstar__imagem {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.populares__bloco__dir__saibamais {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    padding: 10% 0;
+    background-color: var(--cor-quartenaria);
+}
