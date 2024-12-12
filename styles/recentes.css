@@ -31,5 +31,6 @@
     height: min-content;
     padding: 5%;
     margin: 2%;
+    border-radius: 8px;
     background-color: var(--cor-quartenaria);
 }

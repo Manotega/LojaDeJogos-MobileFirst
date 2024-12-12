@@ -64,7 +64,7 @@
 .populares__bloco__esq__subtitulo {
     font-size: 1.1rem;
     font-weight: bolder;
-    color: var(--cor-terciaria);
+    color: #EB9B00;
     line-height: 140%;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .rockstar__imagem {
-    width: 100%;
+    width: 95%;
     border-radius: 16px;
 }
 
@@ -106,5 +106,6 @@
     text-align: center;
     width: 100%;
     padding: 10% 0;
-    background-color: var(--cor-quartenaria);
+    background-color: #EB9B00;
+    border-radius: 8px;
 }
