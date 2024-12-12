@@ -18,27 +18,26 @@
 .rodape__cadastro {
     display: flex;
     align-items: center;
-    padding: 4% 45% 4% 4%;
-    width: auto;
+    padding: 4% 0 4% 4%;
+    width: 100%;
     border: 1px solid rgb(0, 0, 58);
     border-radius: 24px;
 }
 
 .img__email {
-    padding: 0 3%;
+    padding: 0 2%;
 }
 
 .email__pesquisa {
     color: var(--cor-terciaria);
     border: none;
     background-color: transparent;
-    width: max-content;
-    padding-right: 50%;
+    width: 100%;
 }
 
 .email__pesquisa::placeholder {
     font-size: 1rem;
-    text-align: center;
+    text-align: start;
     color: var(--cor-terciaria);;
     font-weight: 400;
     border: none;
