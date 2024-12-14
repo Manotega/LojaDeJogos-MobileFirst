@@ -53,3 +53,31 @@
     font-weight: 600;
     border-top: 1px solid black;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 5% 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .rodape-esq {
+        width: 40%;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .rodape__cadastro {
+        padding: 2% 0 2% 2% ;
+        width: 40%;
+        height: fit-content;
+    }
+
+    .rodape__fim {
+        font-size: 1.5rem;
+    }
+}

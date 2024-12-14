@@ -34,3 +34,25 @@
     border-radius: 8px;
     background-color: var(--cor-quartenaria);
 }
+
+@media screen and (min-width: 1024px) {
+    .recentes__titulo {
+        font-size: 1.5rem;
+        padding: 4%;
+    }
+
+    .recentes__lista {
+        padding: 0 0 2% 0;
+        width: auto;
+    }
+
+    .recentes__lista__item {
+        font-size: 1.5rem
+    }
+
+    .item__lista {
+        padding: 3%;
+        margin: 1%;
+        border-radius: 8px;
+    }
+}

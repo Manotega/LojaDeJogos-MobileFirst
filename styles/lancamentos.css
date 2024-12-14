@@ -36,6 +36,10 @@
     box-shadow: 2px 2px 12px -1px black;
 }
 
+.lancamentos__imagens-b {
+    display: none;
+}
+
 .lancamentos__bloco {
     display: flex;
     border: solid 0px;
@@ -109,4 +113,24 @@
     padding: 10% 0;
     background-color: #107C10;
     border-radius: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .lancamentos__titulo {
+        font-size: 1.6rem;
+        padding: 5% 0 2%;
+    }
+
+    .lancamentos__conteudo__capas {
+        gap: 80px;
+    }
+
+    .lancamentos__imagens-b {
+        display: block;
+    }
+
+    .lancamentos__bloco {
+        width: 60%;
+        margin: 5% 20%;
+    }
 }
