@@ -81,3 +81,19 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 3% 30% 3% 25%;
+    }
+
+    .rodape-esq {
+        width: 50%;
+    }
+
+    .rodape__cadastro {
+        padding: 2% 0 2% 2% ;
+        width: 45%;
+        height: fit-content;
+    }
+}

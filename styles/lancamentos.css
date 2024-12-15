@@ -136,7 +136,44 @@
 }
 
 @media screen and (min-width: 1728px) {
+    .lancamentos {
+        padding-bottom: 0;
+    }
+
     .lancamentos__titulo {
         padding: 2% 0 1%;
+        font-size: 1.8rem;
+    }
+
+    .carrossel {
+        display: none;
+    }
+
+    .lancamentos__imagens-b {
+        display: none;
+    }
+
+    .lancamentos__pc {
+        display: flex;
+        align-items: center;
+        padding: 5% 9%;
+    }
+
+    .lancamentos__bloco {
+        margin: 1%;
+    }
+
+    .lancamentos__bloco__esq {
+        width: 70%;
+        gap: 8px;
+    }
+
+    .lancamentos__bloco__esq__titulo {
+        font-size: 1.8rem;
+    }
+
+    .lancamentos__bloco__esq__icones {
+        width: 20%;
+        padding: 1%;
     }
 }

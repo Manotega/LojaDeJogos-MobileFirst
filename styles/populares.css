@@ -33,6 +33,10 @@
     box-shadow: 2px 2px 12px -1px gray;
 }
 
+.populares__imagens-b {
+    display: none;
+}
+
 .populares__bloco {
     display: flex;
     border: solid 0px;
@@ -63,7 +67,7 @@
 .populares__bloco__esq__subtitulo {
     font-size: 1.1rem;
     font-weight: bolder;
-    color: var(--cor-quartenaria);
+    color: #FEB101;
     line-height: 140%;
 }
 
@@ -106,7 +110,7 @@
     text-align: center;
     width: 95%;
     padding: 10% 0;
-    background-color: var(--cor-quartenaria);
+    background-color: #FEB101;
     border-radius: 8px;
 }
 
@@ -131,5 +135,48 @@
     .populares__bloco {
         width: 60%;
         margin: 5% 20%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .populares {
+        padding-bottom: 0;
+    }
+
+    .populares__titulo {
+        padding: 2% 0 1%;
+        font-size: 1.8rem;
+    }
+
+    .carrossel {
+        display: none;
+    }
+
+    .populares__imagens-b {
+        display: none;
+    }
+
+    .populares__pc {
+        display: flex;
+        align-items: center;
+        padding: 5% 9%;
+    }
+
+    .populares__bloco {
+        margin: 1%;
+    }
+
+    .populares__bloco__esq {
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .populares__bloco__esq__titulo {
+        font-size: 1.8rem;
+    }
+
+    .populares__bloco__esq__icones {
+        width: 20%;
+        padding: 1%;
     }
 }

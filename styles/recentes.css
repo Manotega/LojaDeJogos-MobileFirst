@@ -56,3 +56,15 @@
         border-radius: 8px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .recentes__titulo {
+        font-size: 1.8rem;
+        padding: 4% 2% 2% 2%;
+    }
+
+    .recentes__lista {
+        padding: 0 0 4% 0;
+        width: auto;
+    }
+}

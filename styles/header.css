@@ -95,6 +95,10 @@
     font-weight: 700;
 }
 
+.icone__nome {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         padding: 2% 8% 2% 6%;
@@ -168,7 +172,11 @@
     }
 
     .cabecalho__container__dir {
-        padding-left: 30%;
+        padding-left: 35%;
+    }
+
+    .cabecalho__meio__categorias {
+        cursor: pointer;
     }
 
     .cabecalho__icone {
