@@ -136,6 +136,10 @@
         width: 20%;
     }
 
+    .icone__nome {
+        display: none;   
+    }
+
     .categorias__botao:checked ~ .lista-menu {
         display: block;
     }
@@ -155,9 +159,28 @@
     .cabecalho {
         padding: 1% 4% 1% 4%;
         width: auto;
+        justify-content: left;
     }
 
     .cabecalho__container__meio {
-        
+        padding-left: 5%;
+        width: 25%;
+    }
+
+    .cabecalho__container__dir {
+        padding-left: 30%;
+    }
+
+    .cabecalho__icone {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+    }
+
+    .icone__nome {
+        display: block;
+        color: var(--cor-terciaria);
+        font-weight: 600;
     }
 }
