@@ -33,6 +33,7 @@
     border: none;
     background-color: transparent;
     width: 100%;
+    outline: none;
 }
 
 .email__pesquisa::placeholder {
@@ -44,7 +45,6 @@
     outline: none;
     background: none;
     width: auto;
-    outline: none;
 }
 
 .rodape__fim {
